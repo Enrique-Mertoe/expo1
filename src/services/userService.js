@@ -1,6 +1,6 @@
 import {supabase, uploadFile} from "../lib/supabase";
 
-export const getUserData = async (uid?: string) => {
+export const getUserData = async (uid) => {
     try {
         const {data, error} = await supabase
             .from("users").select()

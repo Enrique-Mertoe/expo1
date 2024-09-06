@@ -1,6 +1,6 @@
 import { useAuth } from '../context/authContext';
 import { View, Text, TextInput} from 'react-native';
-import {Button} from "../../components/button.jsx"
+import {Button} from "../../components/button.js"
 import Icon from "../../components/Icons";
 
 import styles from "../theme/AppTheme"

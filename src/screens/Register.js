@@ -2,7 +2,7 @@
 import {React, useRef, useState} from 'react';
 import {useRouter} from "expo-router"
 import {View, Text, TextInput, Alert} from 'react-native';
-import {Button} from '../../components/button.jsx';
+import {Button} from '../../components/button.js';
 import styles from "../theme/AppTheme";
 import Logo from "../theme/Icons";
 import {supabase} from '../lib/supabase'
